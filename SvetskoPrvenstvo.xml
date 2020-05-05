@@ -1,1 +1,63 @@
+<?xml version ="1.0" encoding ="utf-8" standalone="no"?>
+<!DOCTYPE RasporedTakmicenja SYSTEM "prvenstvo.dtd">
+<RasporedTakmicenja xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com prvenstvo.xsd">
 
+  <Utakmica>
+    <Tim1>
+      <Igrac>
+        <Ime>Ime1</Ime>
+        <Prezime>Prezime1</Prezime>
+        <Klub>Klub1</Klub>
+        <BrojUtakmica>1</BrojUtakmica>
+      </Igrac>
+      <Trener>
+        <Ime>Trener1</Ime>
+        <Prezime>PTrener1</Prezime>
+        <Godine>55</Godine>
+      </Trener>
+      <Kontinent>Evropa</Kontinent>
+      <Zemlja>Italija</Zemlja>
+      <Medalje>
+        <Mesto>
+          <Lokacija stadion="Stadion1" brMesta="30000">
+            <Region>Region1</Region>
+            <Grad>Grad1</Grad>
+          </Lokacija>
+        </Mesto>
+        <Medalja>Zlato</Medalja>
+        <Godina>2019</Godina>
+      </Medalje>
+    </Tim1>
+    <Tim2>
+      <Igrac>
+        <Ime>Ime2</Ime>
+        <Prezime>Prezime2</Prezime>
+        <Klub>Klub2</Klub>
+        <BrojUtakmica>2</BrojUtakmica>
+      </Igrac>
+      <Trener>
+        <Ime>Trener2</Ime>
+        <Prezime>PTrener2</Prezime>
+        <Godine>56</Godine>
+      </Trener>
+      <Kontinent>Afrika</Kontinent>
+      <Zemlja>Gana</Zemlja>
+      <Medalje>
+        <Mesto>
+          <Lokacija stadion="Stadion2" brMesta="20000">
+            <Region>Region2</Region>
+            <Grad>Grad2</Grad>
+          </Lokacija>
+        </Mesto>
+        <Medalja>Srebro</Medalja>
+        <Godina>2012</Godina>
+      </Medalje>
+    </Tim2>
+    <Termin tvPrenos="true" kanal="3">
+      <Datum>2018-05-05</Datum>
+      <Cas>15:25:00</Cas>
+    </Termin>
+  </Utakmica>
+</RasporedTakmicenja>
